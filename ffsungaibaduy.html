@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Fact Sungai Baduy</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:"Segoe UI", Arial, sans-serif;
+    }
+
+    body{
+      background:
+        linear-gradient(rgba(5,15,20,.9), rgba(5,15,20,.9)),
+        url("gambar/background1.webp") center/cover fixed;
+      color:#e6f3f0;
+    }
+
+    /* NAVBAR */
+    nav{
+      position:sticky;
+      top:0;
+      z-index:10;
+      background:rgba(15,35,45,.75);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid rgba(255,255,255,.1);
+    }
+
+    nav ul{
+      list-style:none;
+      display:flex;
+      justify-content:center;
+      gap:25px;
+      padding:15px;
+      flex-wrap:wrap;
+    }
+
+    nav a{
+      text-decoration:none;
+      color:#9ae6ff;
+      font-weight:600;
+      transition:.3s;
+    }
+
+    nav a:hover{
+      color:#ffffff;
+    }
+
+    /* HEADER */
+    header{
+      text-align:center;
+      padding:50px 20px;
+    }
+
+    header h1{
+      font-size:2.2rem;
+      color:#b8f1ff;
+      margin-bottom:10px;
+    }
+
+    header p{
+      color:#d7f5ff;
+      font-size:1rem;
+    }
+
+    /* MAIN */
+    main{
+      max-width:1000px;
+      margin:auto;
+      padding:20px;
+    }
+
+    .hero{
+      border-radius:18px;
+      overflow:hidden;
+      margin-bottom:35px;
+      box-shadow:0 15px 40px rgba(0,0,0,.6);
+    }
+
+    .hero img{
+      width:100%;
+      display:block;
+    }
+
+    .caption{
+      text-align:center;
+      margin-top:8px;
+      font-size:.9rem;
+      color:#a8dff0;
+      font-style:italic;
+    }
+
+    /* CARD */
+    .card{
+      background:rgba(20,55,70,.65);
+      border-radius:18px;
+      padding:22px 24px;
+      margin-bottom:22px;
+      box-shadow:0 10px 30px rgba(0,0,0,.45);
+      transition:.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-4px);
+    }
+
+    .card h3{
+      color:#9ae6ff;
+      margin-bottom:10px;
+    }
+
+    .card p{
+      line-height:1.7;
+      font-size:.95rem;
+      color:#ecf9ff;
+    }
+
+    /* QUOTE */
+    .quote{
+      text-align:center;
+      margin:50px 0 30px;
+      font-size:1.1rem;
+      color:#ffd7a8;
+      font-style:italic;
+    }
+
+    /* FOOTER */
+footer{
+    margin-top:60px;
+    background:rgba(255,255,255,.9);
+    padding:20px;
+    text-align:center;
+}
+footer a{
+    margin:0 6px;
+    text-decoration:none;
+    color:#2f6b3f;
+    font-weight:600;
+}
+footer a:hover{color:#1e4d2b;}
+
+footer p{
+    margin-top:10px;
+    font-size:.85rem;
+    color:#555;
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="gallery.html">🖼️ Gallery</a></li>
+      <li><a href="contact.html">☎️ Contact</a></li>
+      <li><a href="about.html">📖 About</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <h1>🌊 Fun Fact Sungai Baduy</h1>
+    <p>Sungai jernih sebagai cermin keseimbangan hidup masyarakat Baduy</p>
+  </header>
+
+  <main>
+
+    <!-- HERO IMAGE -->
+    <div class="hero">
+      <img src="gambar/sungaibaduy.jpg" alt="Sungai Baduy">
+    </div>
+    <p class="caption">Keindahan sungai alami di wilayah Suku Baduy</p>
+
+    <!-- CONTENT -->
+    <div class="card">
+      <h3>1. Air Jernih Tanpa Filter 💧</h3>
+      <p>
+        Sungai Baduy tetap jernih karena masyarakatnya menjaga alam dan
+        tidak menggunakan bahan kimia.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>2. Mandi & Mencuci dengan Aturan 🚿</h3>
+      <p>
+        Sabun dan deterjen tidak diperbolehkan agar air sungai tetap bersih
+        dan lestari.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>3. Berasal dari Pegunungan ⛰️</h3>
+      <p>
+        Air sungai bersumber dari kawasan Pegunungan Halimun, membuatnya
+        segar dan dingin.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>4. Jembatan Alami 🌿</h3>
+      <p>
+        Jembatan terbuat dari bambu dan kayu tanpa logam, selaras dengan
+        alam sekitar.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>5. Simbol Kehidupan 🌾</h3>
+      <p>
+        Sungai dipercaya sebagai cermin kehidupan. Air yang kotor berarti
+        manusia melanggar adat.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>6. Dijaga Hutan Lindung 🌳</h3>
+      <p>
+        Sungai mengalir di kawasan hutan yang dijaga turun-temurun agar
+        tetap lestari.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>7. Bisa Langsung Diminum 💦</h3>
+      <p>
+        Di beberapa titik, air sungai sangat bersih dan dapat diminum
+        langsung dari sumbernya.
+      </p>
+    </div>
+
+    <p class="quote">
+      “Sungai yang jernih adalah cermin hati yang bersih.”
+    </p>
+
+    <div class="hero">
+      <img src="gambar/Sungai-Suku-Baduy.webp" alt="Pemandangan Sungai Baduy">
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+<a href="fflaki.html">LAKI-LAKI BADUY</a> |
+    <a href="ffwanitabaduy.html">WANITA BADUY</a> |
+    <a href="ffrumahbaduy.html">RUMAH BADUY</a> |
+    <a href="fflumbungpadi.html">LUMBUNG PADI</a> |
+    <a href="ffangklungbaduy.html">ANGKLUNG</a> |
+    <a href="ffbaduyluardalam.html">BADUY LUAR & DALAM</a> |
+    <a href="ffsungaibaduy.html">SUNGAI</a> |
+    <a href="ffpemandanganbaduy.html">PEMANDANGAN</a>
+    <p>© 2025 Fun Fact Budaya Baduy</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Fact Baduy Luar & Dalam</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+      url("gambar/background1.webp") center/cover fixed;
+      color: #222;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* ===== NAVBAR ===== */
+    nav {
+      background: rgba(255,255,255,.9);
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,.15);
+    }
+
+    nav a {
+      margin: 0 12px;
+      font-weight: 600;
+      color: #4b0082;
+    }
+
+    nav a:hover {
+      color: #2e7d32;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: .9;
+    }
+
+    header img {
+      margin-top: 25px;
+      width: 100%;
+      max-width: 650px;
+      border-radius: 18px;
+      box-shadow: 0 15px 40px rgba(0,0,0,.5);
+    }
+
+    /* ===== CONTENT ===== */
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 12px 35px rgba(0,0,0,.2);
+    }
+
+    .card h2 {
+      text-align: center;
+      margin-bottom: 15px;
+      color: #4b0082;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 14px;
+      margin-bottom: 10px;
+    }
+
+    .card small {
+      display: block;
+      text-align: center;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .card ul {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+
+    /* ===== QUOTE ===== */
+    .quote {
+      background: linear-gradient(135deg, #2e7d32, #66bb6a);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      margin: 50px 0;
+      border-radius: 20px;
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+
+/* FOOTER */
+footer{
+    margin-top:60px;
+    background:rgba(255,255,255,.9);
+    padding:20px;
+    text-align:center;
+}
+footer a{
+    margin:0 6px;
+    text-decoration:none;
+    color:#2f6b3f;
+    font-weight:600;
+}
+footer a:hover{color:#1e4d2b;}
+
+footer p{
+    margin-top:10px;
+    font-size:.85rem;
+    color:#555;
+}
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="index.html">🏠 HOME</a>
+  <a href="gallery.html">🖼️ GALLERY</a>
+  <a href="contact.html">☎️ CONTACT</a>
+  <a href="about.html">📖 ABOUT US</a>
+</nav>
+
+<!-- HEADER -->
+<header>
+  <h1>🌾 Fun Fact Baduy Luar & Dalam 🌾</h1>
+  <p>Dua dunia adat, satu filosofi kehidupan</p>
+  <img src="gambar/baduyluardalam.jpeg" alt="Baduy Luar dan Dalam">
+</header>
+
+<!-- CONTENT -->
+<section class="container">
+
+  <div class="compare">
+
+    <!-- BADUY DALAM -->
+    <div class="card">
+      <h2>Baduy Dalam</h2>
+      <img src="gambar/fotobaduydalam.webp" alt="Baduy Dalam">
+      <small>Pakaian putih sebagai simbol kesucian</small>
+      <ul>
+        <li>Tinggal di Cibeo, Cikertawana, Cikeusik</li>
+        <li>Tanpa listrik & teknologi modern</li>
+        <li>Rumah tanpa paku</li>
+        <li>Pakaian putih polos</li>
+        <li>Bertani huma alami</li>
+        <li>Kejujuran mutlak</li>
+        <li>Foto harus izin adat</li>
+      </ul>
+    </div>
+
+    <!-- BADUY LUAR -->
+    <div class="card">
+      <h2>Baduy Luar</h2>
+      <img src="gambar/fotobaduyluar.webp" alt="Baduy Luar">
+      <small>Pakaian biru tua simbol keteguhan</small>
+      <ul>
+        <li>Tinggal di luar wilayah inti</li>
+        <li>Mengenal listrik & ponsel sederhana</li>
+        <li>Pakaian biru atau hitam</li>
+        <li>Pengrajin bambu & tenun</li>
+        <li>Pemandu wisata Baduy</li>
+        <li>Lebih terbuka ke pendatang</li>
+        <li>Tetap taat adat leluhur</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="quote">
+    “Dua dunia, satu jiwa. Dalam menjaga kesucian, luar menjaga keseimbangan.”
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2025 Fun Fact Budaya Baduy | Zikri Rahmaja – 251011700080  
+  <br><br>
+  <a href="fflaki.html">LAKI-LAKI BADUY</a> |
+    <a href="ffwanitabaduy.html">WANITA BADUY</a> |
+    <a href="ffrumahbaduy.html">RUMAH BADUY</a> |
+    <a href="fflumbungpadi.html">LUMBUNG PADI</a> |
+    <a href="ffangklungbaduy.html">ANGKLUNG</a> |
+    <a href="ffbaduyluardalam.html">BADUY LUAR & DALAM</a> |
+    <a href="ffsungaibaduy.html">SUNGAI</a> |
+    <a href="ffpemandanganbaduy.html">PEMANDANGAN</a>
+</footer>
+
+</body>
+</html>
